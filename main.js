@@ -15,7 +15,6 @@ async function getRandomImage() {
       document.querySelector(
         ".container"
       ).style.backgroundImage = `url(${response.url})`;
-      console.log(response.url);
     })
 
     .catch((err) => console.log(err));
